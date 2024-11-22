@@ -1,0 +1,42 @@
+main{
+    padding-top: 4.5rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+main div{
+    height: 5rem;
+    margin: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+.start {
+    color: #fff;
+    background-color: #04151F;
+    border: 1px solid #04151F;
+    padding: 1.5rem 5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all ease-in-out 600ms;
+}
+.start:hover {
+    color: #fff;
+    background-color: #072536;
+    border: 1px solid #04151F;
+    padding: 1.5rem 5rem;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    transition: all ease-in-out 600ms;
+}
+.start .link{
+    text-decoration: none;
+}
+.start .link:visited{
+    color: #fff;
+}

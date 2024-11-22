@@ -1,0 +1,30 @@
+.conteudo-principal .texto{
+    display: flex;
+    flex-direction: row;
+    padding: 0 1rem;
+    align-items: center;
+    padding-top: 2rem;
+    justify-content: center;
+    height: 100%;
+}
+.conteudo-principal .texto .seta{
+    color: white;
+    height: 2rem;
+    min-width: 3rem;
+    cursor: pointer;
+    transition: all ease-in-out 600ms;
+    border-radius: 1.5rem;
+}
+.conteudo-principal .texto .seta:hover{
+    color: white;
+    min-height: 1rem;
+    min-width: 3rem;
+    cursor: pointer;
+    background-color: #08273a;
+    transition: all ease-in-out 600ms;
+}
+
+.conteudo-principal .texto p{
+    text-align: center;
+    color: #fff;
+}

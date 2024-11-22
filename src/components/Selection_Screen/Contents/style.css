@@ -1,0 +1,69 @@
+.contents {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.contents div{
+    display: flex;
+    width: 33.3333%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+    transition: all ease-in-out 600ms;
+}
+.contents div:hover{
+    display: flex;
+    width: 33.3333%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10rem;
+}
+.contents div p{
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.contents div img{
+    cursor: pointer;
+}
+
+.contents .html {
+    background-color: #FC490B;
+}
+.contents .html:hover {
+    background-color: #FC490B;
+    transition: all ease-in-out 600ms;
+    background-color: #992701;
+}
+.contents .html img{
+    height: 7.5rem;
+    width: 7.5rem;
+}
+
+.contents .css {
+    background-color: #2196F3;
+}
+.contents .css:hover {
+    background-color: #2196F3;
+    transition: all ease-in-out 600ms;
+    background-color: #0159a0;
+}
+.contents .css img{
+    height: 7.5rem;
+    width: 7.5rem;
+}
+.contents .js {
+    background-color: #FFDF00;
+}
+.contents .js:hover {
+    background-color: #bea500;
+    transition: all ease-in-out 600ms;
+    background-color: #ecb501;
+}
+.contents .js img{
+    height: 7.5rem;
+    width: 7.5rem;
+}
