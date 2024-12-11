@@ -14,13 +14,13 @@ export default function Navigation() {
         <li><Link to={'/html/mainTags'} className="link">Modulo II - Principais tags</Link></li>
         <ul className="module2">
           <li><Link to={'/html/mainTags/headerTags'} className="link">Tags de cabeçalho</Link></li>
-          <li>Tags de texto</li>
-          <li>Tags de modificação</li>
-          <li>Hiperlinks</li>
-          <li>Tabelas</li>
-          <li>Listas</li>
+          <li><Link to={'/html/mainTags/textTags'} className="link">Tags de texto</Link></li>
+          <li><Link to={'/html/mainTags/modificationTags'} className="link">Tags de modificação</Link></li>
+          <li><Link to={'/html/mainTags/hyperlinkTags'} className="link">Hiperlinks</Link></li>
+          <li><Link to={'/html/mainTags/tableTags'} className="link">Tabelas</Link></li>
+          <li><Link to={'/html/mainTags/listTags'} className="link">Listas</Link></li>
         </ul>
-        <li>Modulo III - Estrutura</li>
+        <li><Link to={'/html/structureTags'} className="link">Modulo III - Estrutura</Link></li>
       </ul>
     </nav>
   );

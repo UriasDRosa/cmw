@@ -19,16 +19,35 @@
 .menu-lateral .list-content li{
     padding-bottom: 0.5rem;
     margin: 0;
+    list-style:  none;
 }
 .menu-lateral ul li{
     cursor: pointer;
+    position: relative;
+}
+
+.menu-lateral ul li::after{
+    content: " ";
+    width: 0%;
+    height: 0.2rem;
+    background-color: black;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    transition: 600ms ease-in-out;
+    
+}
+
+.menu-lateral ul li:hover::after{
+    width: 100%;
 }
 .menu-lateral ul .module1 {
-    list-style: inside;
+    list-style: none;
+    padding-left: 1rem;
 }
 .menu-lateral ul .module2{
     padding-left: 1rem;
-    list-style: inside;
+    list-style: none;
 }
 
 .menu-lateral ul .link{

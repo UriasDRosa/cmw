@@ -1,0 +1,53 @@
+.result-exemplo {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-areas:
+    "cabecalho cabecalho cabecalho"
+    "navegacao principal principal"
+    "navegacao principal principal"
+    "navegacao rodape rodape";
+
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 0;
+}
+.result-exemplo div {
+  margin: 0;
+  padding: 0;
+}
+
+.cabecalho-exemplo {
+  background-color: #17bebb;
+  color: black;
+  grid-area: cabecalho;
+  height: 100%;
+  width: 100%;
+}
+
+.nav-exemplo {
+  background-color: #28666e;
+  color: white;
+  grid-area: navegacao;
+  height: 100%;
+  width: 100%;
+}
+
+.main-exemplo {
+  background-color: #d4f4dd;
+  color: black;
+  grid-area: principal;
+  height: 100%;
+  width: 100%;
+}
+
+.footer-exemplo {
+  background-color: #F8F0FB;
+  color: black;
+  grid-area: rodape;
+  height: 100%;
+  width: 100%;
+}

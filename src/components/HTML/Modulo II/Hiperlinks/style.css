@@ -1,0 +1,9 @@
+.input-tabulado{
+    font-size: large;
+    margin-left: 2rem;
+    max-width: 90%;
+}
+
+.result div{
+    align-items: flex-start;
+}
