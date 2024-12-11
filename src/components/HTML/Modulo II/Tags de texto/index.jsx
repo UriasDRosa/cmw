@@ -30,6 +30,11 @@ export default function TextTags() {
               <p className="tabulado1">{`<span>Aqui está escrito um texto genérico, sem semântica</span>`}</p>
               <p>{`</div>`}</p>
             </div>
+            <div className="result">
+              <h1>Aqui está o título do meu site</h1>
+              <p>Aqui está escrito um parágrafo referente ao meu título</p>
+              <span>Aqui está escrito um texto genérico, sem semântica</span>
+            </div>
           </div>
         </div>
       </main>
