@@ -20,6 +20,14 @@ export default function HTML() {
         <Navigation />
         <div className="conteudo-principal">
           <TextArea listaTexto={listaTexto}/>
+          <div className="exercicio">
+            <div className="code">
+              
+            </div>
+            <div className="result">
+              
+            </div>
+          </div>
         </div>
       </main>
     </>
