@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Header from "../../../Home/Header/component-header";
 import Navigation from "../../Navigation";
@@ -7,12 +7,7 @@ import TextArea from "../../../HTML/TextArea";
 import "./style.css";
 
 export default function Ordem() {
-  let [textoRecebido, setTextoRecebido] = useState("");
-
-  const atualizarNome = () =>{
-    const nome = prompt("Insira seu nome")
-    setTextoRecebido(nome);
-  }
+  
 
   let listaTexto = [
     "Quando o navegador encontra um bloco de código JavaScript, ele geralmente executa na ordem, de cima para baixo. Isso significa que você precisa ter cuidado com a ordem na qual você coloca as coisas.",

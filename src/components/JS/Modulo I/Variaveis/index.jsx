@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 
 import Header from "../../../Home/Header/component-header";
 import Navigation from "../../Navigation";
@@ -7,12 +7,7 @@ import TextArea from "../../../HTML/TextArea";
 import "./style.css";
 
 export default function Variaveis() {
-  let [textoRecebido, setTextoRecebido] = useState("");
-
-  const atualizarNome = () =>{
-    const nome = prompt("Insira seu nome")
-    setTextoRecebido(nome);
-  }
+  
 
   let listaTexto = [
     "Dentro do JavaScript nós utilizamos variáveis para declarar valores, objetos, vetores entre outros. As variáveis de JavaScript são fracamente tipadas, ou seja, não possuem um tipo como em outras linguagens de programação, como por exemplo o C++.",

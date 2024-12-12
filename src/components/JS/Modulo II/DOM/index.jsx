@@ -7,13 +7,9 @@ import TextArea from "../../../HTML/TextArea";
 import "./style.css";
 
 export default function DOM() {
-  let [textoRecebido, setTextoRecebido] = useState("");
   const [isCorrect, setIsCorrect] = useState(false);
 
-  const atualizarNome = () =>{
-    const nome = prompt("Insira seu nome")
-    setTextoRecebido(nome);
-  }
+  
   const handleChange = (event) => {
     const textoRecebido = event.target.value;
     const textoCortado = textoRecebido.replace(/\s+/g, "");
