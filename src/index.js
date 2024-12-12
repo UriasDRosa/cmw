@@ -36,6 +36,19 @@ import FlexBox from "./components/CSS/Modulo III";
 import Justificar from "./components/CSS/Modulo III/Justify";
 import Align from "./components/CSS/Modulo III/Align";
 
+
+// JS MODULE
+import Relacao from "./components/JS/Modulo I/Relacao";
+import Variaveis from "./components/JS/Modulo I/Variaveis";
+import Ordem from "./components/JS/Modulo I/Ordem";
+import Teoria from "./components/JS/Modulo II";
+import Codes from "./components/JS/Modulo II/Codigo";
+import ClientServer from "./components/JS/Modulo II/Sides";
+import Dinamicidade from "./components/JS/Modulo II/Dinamicidade";
+import Documents from "./components/JS/Modulo II/Documentos";
+import DOM from "./components/JS/Modulo II/DOM";
+import Challenge from "./components/JS/Modulo III";
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
@@ -97,7 +110,21 @@ root.render(
         <Route exact path="/css/flexBox" element={<FlexBox />}></Route>
         <Route exact path="/css/flexBox/justifyContent" element={<Justificar />}></Route>
         <Route exact path="/css/flexBox/AlignItems" element={<Align />}></Route>
+
+        {/* CSS ROUTER DOM */}
         <Route exact path="/js" element={<JS />}></Route>
+        <Route exact path="/js/relacao" element={<Relacao />}></Route>
+        <Route exact path="/js/variaveis" element={<Variaveis />}></Route>
+        <Route exact path="/js/ordem" element={<Ordem />}></Route>
+        <Route exact path="/js/teoria" element={<Teoria />}></Route>
+        <Route exact path="/js/teoria/codes" element={<Codes />}></Route>
+        <Route exact path="/js/teoria/clientServer" element={<ClientServer />}></Route>
+        <Route exact path="/js/teoria/dinamicCode" element={<Dinamicidade />}></Route>
+        <Route exact path="/js/teoria/usingJS" element={<Documents />}></Route>
+        <Route exact path="/js/teoria/dom" element={<DOM />}></Route>
+        <Route exact path="/js/challenge" element={<Challenge />}></Route>
+
+
         <Route path="*" element="Página não encontrada"></Route>
       </Routes>
     </BrowserRouter>

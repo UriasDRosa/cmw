@@ -10,6 +10,7 @@ export default function CSS() {
   const listaTexto = [
     "CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilização usada em documentos escritos em HTML ou em XML.",
     "O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.",
+    "Para utilizar CSS na sua página, pode criar um arquivo .css no projeto e depois referencia-lo no HTML, através do código '<link rel=arquivo.css />'."
   ];
 
   return (
