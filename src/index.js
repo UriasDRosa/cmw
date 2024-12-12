@@ -32,6 +32,9 @@ import Margin from "./components/CSS/Modulo II/Margin";
 import Padding from "./components/CSS/Modulo II/Padding";
 import Border from "./components/CSS/Modulo II/Border";
 import Sizing from "./components/CSS/Modulo II/Sizing";
+import FlexBox from "./components/CSS/Modulo III";
+import Justificar from "./components/CSS/Modulo III/Justify";
+import Align from "./components/CSS/Modulo III/Align";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -91,9 +94,9 @@ root.render(
         <Route exact path="/css/spacing/padding" element={<Padding />}></Route>
         <Route exact path="/css/spacing/border" element={<Border />}></Route>
         <Route exact path="/css/spacing/sizing" element={<Sizing />}></Route>
-        <Route exact path="/css/usingFor" element={<Usability />}></Route>
-        <Route exact path="/css/usingFor" element={<Usability />}></Route>
-        <Route exact path="/css/usingFor" element={<Usability />}></Route>
+        <Route exact path="/css/flexBox" element={<FlexBox />}></Route>
+        <Route exact path="/css/flexBox/justifyContent" element={<Justificar />}></Route>
+        <Route exact path="/css/flexBox/AlignItems" element={<Align />}></Route>
         <Route exact path="/js" element={<JS />}></Route>
         <Route path="*" element="Página não encontrada"></Route>
       </Routes>

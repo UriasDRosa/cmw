@@ -1,0 +1,20 @@
+.exemplo-css-7{
+    display: flex;
+    justify-content: stretch;
+    width: 100%;
+}
+.quadrado1{
+    height: 5rem;
+    width: 5rem;
+    background-color: #04151F;
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.185) ;
+    margin-right: 0.5rem;
+}
+.quadrado2{
+    height: 5rem;
+    width: 5rem;
+    background-color: white;
+    border: 1px solid gainsboro;
+    box-shadow: 0.2rem 0.2rem rgba(0, 0, 0, 0.185) ;
+    margin-right: 0.5rem;
+}

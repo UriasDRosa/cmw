@@ -72,11 +72,6 @@ export default function Navigation() {
               Alinhar os elementos
             </Link>
           </li>
-          <li>
-            <Link to={"/css/flexBox/OtherAligns"} className="link">
-              Diferentes alinhamentos
-            </Link>
-          </li>
         </ul>
       </ul>
     </nav>
