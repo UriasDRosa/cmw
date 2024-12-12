@@ -5,7 +5,7 @@ import "./style.css";
 import { GoChevronLeft } from "react-icons/go";
 import { GoChevronRight } from "react-icons/go";
 
-export default function TextArea({listaTexto}) {
+export default function TextArea({ listaTexto }) {
   let [texto, setTexto] = useState(listaTexto[0]);
   const [index, setIndex] = useState(0);
 

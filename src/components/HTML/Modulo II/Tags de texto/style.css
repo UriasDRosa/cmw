@@ -1,3 +1,13 @@
-.tabulado1{
-    margin-left: 2rem;
+.conteudo-principal {
+  overflow: auto;
+}
+.tabulado1 {
+  margin-left: 2rem;
+}
+
+.result-text-tags {
+  overflow: auto;
+  height: 100%;
+  justify-content: flex-start;
+  align-items: flex-start;
 }

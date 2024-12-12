@@ -1,0 +1,12 @@
+.exemplo-css-4{
+    background-color: #04151F;
+    height: 5rem;
+    width: 5rem;
+}
+
+
+.bloco-interno{
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: white;
+}

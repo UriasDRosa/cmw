@@ -7,7 +7,6 @@ import TextArea from "../../TextArea";
 import "./style.css";
 
 export default function TextTags() {
-
   let listaTexto = [
     "Quando vamos escrever texto no HTML, a tag mais comum utilizada é a tag <p>, onde dentro dela escrevemos o texto que queremos adicionar ao site, como por exemplo “<p>Hello World</p>”.",
     "A tag “p” é útil quando queremos escrever trechos de texto no site, mas existem outros tipos de tags com finalidades semelhantes, algumas delas são as tags <article>,<span> e <code>.",
@@ -30,7 +29,7 @@ export default function TextTags() {
               <p className="tabulado1">{`<span>Aqui está escrito um texto genérico, sem semântica</span>`}</p>
               <p>{`</div>`}</p>
             </div>
-            <div className="result">
+            <div className="result-text-tags">
               <h1>Aqui está o título do meu site</h1>
               <p>Aqui está escrito um parágrafo referente ao meu título</p>
               <span>Aqui está escrito um texto genérico, sem semântica</span>

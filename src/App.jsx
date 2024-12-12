@@ -1,5 +1,5 @@
-import './App.css';
-import React from 'react';
+import "./App.css";
+import React from "react";
 
 export default function App() {
   return (
@@ -8,4 +8,3 @@ export default function App() {
     </div>
   );
 }
-

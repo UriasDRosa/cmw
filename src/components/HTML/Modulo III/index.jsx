@@ -7,7 +7,6 @@ import TextArea from "../TextArea";
 import "./style.css";
 
 export default function StructureTags() {
-  
   let listaTexto = [
     "Existem diversas tags que são usadas para estruturar a página, quando criamos nosso documento HTML, algumas tags de estrutura já são criadas, como a tag <html> e a tag <body>. ",
     "Elas são a base da estrutura do site, porém existem inúmeras outras tags que podem ser utilizadas dentro do corpo do documento, em sites comuns, as que são mais usadas são as tags <header>, para criar o cabeçalho, a tag <main> para ser o container onde será incluído o conteúdo principal da página e a tag <footer> para adicionar um rodapé ao documento.",
